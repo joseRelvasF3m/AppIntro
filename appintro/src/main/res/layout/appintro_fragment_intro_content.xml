@@ -7,46 +7,35 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/main"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#000">
 
     <TextView
         android:id="@+id/title"
         style="@style/AppIntroDefaultHeading"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        app:layout_constraintBottom_toTopOf="@+id/image"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         tools:text="Welcome"
+       android:visibility="gone"
         />
 
     <TextView
         android:id="@+id/description"
+        app:layout_constraintBottom_toTopOf="@id/image"
         android:layout_gravity="center"
-        android:layout_weight="0.9"
         android:gravity="center"
         android:textColor="@android:color/white"
         android:textSize="16sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginVertical="64dp"
-        app:layout_constraintBottom_toTopOf="@+id/image"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-
         tools:text="This is a demo of the AppIntro Library" />
 
     <ImageView
         android:id="@+id/image"
-        android:layout_gravity="center"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingTop="64dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/description"
