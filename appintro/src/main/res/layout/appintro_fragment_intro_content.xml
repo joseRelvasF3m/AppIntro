@@ -23,8 +23,7 @@
         android:gravity="center"
         android:textColor="@android:color/white"
         android:textSize="24sp"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
+        android:paddingHorizontal="32dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:text="This is a demo of the AppIntro Library" />
