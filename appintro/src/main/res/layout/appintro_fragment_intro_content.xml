@@ -23,6 +23,8 @@
         android:gravity="center"
         android:textColor="@android:color/white"
         android:textSize="24sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:text="This is a demo of the AppIntro Library" />
@@ -31,7 +33,7 @@
         android:id="@+id/image"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
-        android:padding="32dp"
+        android:paddingTop="32dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
